@@ -7,3 +7,4 @@ class User:
 
     def print(self):
         print(self.login)
+
