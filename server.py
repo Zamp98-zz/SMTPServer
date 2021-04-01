@@ -1,6 +1,7 @@
 import socket
 import os
 import user
+import init
 
 def erroDestinatario(destinatario):
 	try:
@@ -91,6 +92,7 @@ def start():
 				email += data.decode('utf-8')
 				data = "X"
 		serversocket.sendall(data.encode('utf-8')) # mandar mensagem
+init.main()
 start()
 
 # funções separadas para erro
