@@ -69,7 +69,10 @@ Comandos SMTP implementados:
     3 - . (envia a mensagem ao destinatário)
 ##Contribuição:
 
-    O programa foi implementado por Zamp98(https://github.com/Zamp98), araujoG(https://github.com/araujoG) e Goncazevedo(https://github.com/Goncazevedo)
+O programa foi implementado por: 
+[Zamp98](https://github.com/Zamp98), 
+[araujoG](https://github.com/araujoG) e 
+[Goncazevedo](https://github.com/Goncazevedo)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
