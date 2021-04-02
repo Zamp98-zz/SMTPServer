@@ -42,26 +42,24 @@ Pycharm:
 
     1 - Após clonar o projeto, abra o projeto no pycharm.
     2 - Configure o interpretador para o python 3.8(outras versões devem funcionar, mas não foram testadas).
+
+Terminal Linux:
+
+    1 - Após clonar o projeto, abra a pasta do projeto no VSCode.
+    2 - Configure o interpretador para o python 3.8(outras versões devem funcionar, mas não foram testadas).
     
-    
-
-VSCode:
-    //TODO
-```bash
-
-```
-
 ## Como usar
 Pycharm:
 
     1 - Clique no arquivo server.py com o botão direito e execute-o.
     2 - Após a inicializar o servidor com sucesso, repita a etapa acima para o arquivo client.py
+
 Terminal Linux:
     
-VScode:
-
-    1 - 
-    2 - 
+    1 - Abra uma janela do terminal na pasta do projeto e digite o comando 'python3 server.py'.
+    2 - Abra outra janela do terminal na mesma pasta e digite o comando 'python3 client.py'.
+    3 - Agora, basta inserir os comandos desejados na janela do terminal na qual foi executado o arquivo do cliente. 
+    
 Comandos SMTP implementados:
 
     1 - RCP TO: <destinatário>(seleciona o destinatário da mensagem) 
