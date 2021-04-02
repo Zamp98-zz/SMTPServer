@@ -68,7 +68,7 @@ Comandos SMTP implementados:
     2 - DATA (inicia o modo de escrita de mensagem)
     3 - . (envia a mensagem ao destinatário)
 
-Observações:
+##Observações:
 	
 	1 - Após o envio de uma mensagem o sistema aguarda que seja inserido um novo destinatário para poder enviar uma nova mensagem. Dessa forma, não é possível enviar duas mensagens para o mesmo destinatário sem ter que informá-lo novamente. 
 	2 - Caso o servidor seja encerrado antes do cliente, é possível que, na próxima vez que o servidor seja levantado na mesma porta, ela permaneça alocada. Impossibilitando, assim, que o servidor seja levantado. 
