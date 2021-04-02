@@ -25,14 +25,14 @@ def checkUsers():
                         raise
             f = open(os.path.join(os.getcwd()+'/data', i.getLogin()+ 'Inbox.txt'), 'w')
             f.close()
-
+    print("Número de usuários cadastrados:",len(r))
 
 def main():
     checkUsers()
-    print(sys.platform)
+    #print(sys.platform)
     #runpy.run_module(mod_name='server')
     #print("Iniciando servidor...")
     #time.sleep(1)
     #print("Iniciando cliente...")
     #runpy.run_module(mod_name='client')
-main()
+

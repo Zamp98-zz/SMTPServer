@@ -16,5 +16,5 @@ def loadUsers(filename):
         f.close()
         return users
     except:
-        print("file not found")
+        print("Arquivo ",filename," não encontrado")
         return []
