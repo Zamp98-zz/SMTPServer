@@ -1,6 +1,5 @@
 import socket
 import os
-import user
 import init
 
 def erroDestinatario(destinatario):

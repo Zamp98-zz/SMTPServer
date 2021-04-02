@@ -47,7 +47,6 @@ Terminal Linux:
 
     1 - Após clonar o projeto, abra a pasta do projeto.
     2 - Execute o comando 'pip3 install sockets' para instalar a biblioteca de sockets.
-    3 - Execute o comando 'mkdir data'.
     OBS: Nesse caso a variável 'pip3' corresponde ao instalador de pacotes da versão 3.8 do python e 'python3' corresponde a variável que roda essa versão do python.
     
 ## Como usar
@@ -65,16 +64,22 @@ Terminal Linux:
     
 Comandos SMTP implementados:
 
-    1 - RCP TO: <destinatário> (seleciona o destinatário da mensagem) 
+    1 - RCP TO: <destinatário> (seleciona o destinatário da mensagem entre <>) 
     2 - DATA (inicia o modo de escrita de mensagem)
     3 - . (envia a mensagem ao destinatário)
-    
+
+Observações:
+	
+	1 - Após o envio de uma mensagem o sistema aguarda que seja inserido um novo destinatário para poder enviar uma nova mensagem. Dessa forma, não é possível enviar duas mensagens para o mesmo destinatário sem ter que informá-lo novamente. 
+	2 - Caso o servidor seja encerrado antes do cliente, é possível que, na próxima vez que o servidor seja levantado na mesma porta, ela permaneça alocada. Impossibilitando, assim, que o servidor seja levantado. 
+
+
 ##Contribuição:
 
 O programa foi implementado por: 
-[Zamp98](https://github.com/Zamp98), 
-[araujoG](https://github.com/araujoG) e 
-[Goncazevedo](https://github.com/Goncazevedo)
+[Arthur Zampirolli](https://github.com/Zamp98), 
+[Gabriel Araujo](https://github.com/araujoG) e 
+[Jhonatan Azevedo](https://github.com/Goncazevedo)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
