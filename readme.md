@@ -42,31 +42,33 @@ Pycharm:
 
     1 - Após clonar o projeto, abra o projeto no pycharm.
     2 - Configure o interpretador para o python 3.8(outras versões devem funcionar, mas não foram testadas).
+
+Terminal Linux:
+
+    1 - Após clonar o projeto, abra a pasta do projeto.
+    2 - Execute o comando 'pip3 install sockets' para instalar a biblioteca de sockets.
+    3 - Execute o comando 'mkdir data'.
+    OBS: Nesse caso a variável 'pip3' corresponde ao instalador de pacotes da versão 3.8 do python e 'python3' corresponde a variável que roda essa versão do python.
     
-    
-
-VSCode:
-    //TODO
-```bash
-
-```
-
 ## Como usar
 Pycharm:
 
     1 - Clique no arquivo server.py com o botão direito e execute-o.
     2 - Após a inicializar o servidor com sucesso, repita a etapa acima para o arquivo client.py
+
 Terminal Linux:
     
-VScode:
-
-    1 - 
-    2 - 
+    1 - Abra uma janela do terminal na pasta do projeto e digite o comando 'python3 server.py'.
+    2 - Abra outra janela do terminal na mesma pasta e digite o comando 'python3 client.py'.
+    3 - Agora, basta inserir os comandos desejados na janela do terminal na qual foi executado o arquivo do cliente. 
+    OBS: Nesse caso a variável 'pip3' corresponde ao instalador de pacotes da versão 3.8 do python e 'python3' corresponde a variável que roda essa versão do python.
+    
 Comandos SMTP implementados:
 
-    1 - RCP TO: <destinatário>(seleciona o destinatário da mensagem) 
+    1 - RCP TO: <destinatário> (seleciona o destinatário da mensagem) 
     2 - DATA (inicia o modo de escrita de mensagem)
     3 - . (envia a mensagem ao destinatário)
+    
 ##Contribuição:
 
 O programa foi implementado por: 
